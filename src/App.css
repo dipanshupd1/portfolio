@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans&family=Poppins:ital,wght@1,200&family=Rajdhani&family=Roboto+Condensed:wght@300&family=Teko:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+}
+
+.navlist {
+  margin: 1rem 3rem 0.5rem 1rem;
+  list-style: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.navlist a {
+  text-decoration: none;
+}
+.navlist a:hover {
+  color: rgb(133, 163, 255);
+}
+.navlist::after {
+  display: block;
+  content: "";
+  border-bottom: 1.5px solid rgb(247, 212, 55);
+  transform: scaleX(0);
+  transition: 300ms;
+}
+.navlist:hover {
+  font-weight: 700;
+  opacity: 1;
+}
+.navlist:hover:after {
+  font-weight: 700;
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+#homediv {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  background-color: black;
+  -webkit-clip-path: polygon(0 0, 0 100%, 70% 90%, 100% 100%, 100% 0);
+          clip-path: polygon(0 0, 0 100%, 70% 90%, 100% 100%, 100% 0);
+}
+
+#homediv-imgtag {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  margin: 3rem;
+  width: 24vw;
+  height: auto;
+  aspect-ratio: 0.85;
+  background: url("/src/assets/final.png"), #ffffff;
+  background-size: 70% 90%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: 0px 20px;
+  -webkit-clip-path: circle(40% at 45% 40%);
+          clip-path: circle(40% at 45% 40%);
+}
+
+#homediv-contentdiv {
+  width: 70vw;
+  height: 80vh;
+  position: relative;
+}
+
+#homediv-content {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+#homediv-content h3 {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  margin: 0 0 1.5rem 0;
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+#homediv-content h1 {
+  color: rgb(24, 188, 252);
+  margin: 1rem 1rem 1rem 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 0px rgba(246, 246, 249, 0.569);
+}
+#homediv-content p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+}
+#homediv-content p span {
+  padding: 0 3px 0 3px;
+  background-color: rgb(46, 11, 241);
+  color: rgb(237, 238, 245);
+  font-weight: 600;
+}
+
+#home-button {
+  cursor: pointer;
+  padding: 1rem;
+  background: none;
+  border: none;
+  position: absolute;
+  bottom: -15%;
+  right: 10%;
+  text-align: center;
+  box-shadow: 2px 2px 10px 1px rgb(9, 238, 9);
+  border-radius: 0.4rem;
+  color: rgb(9, 238, 9);
+  opacity: 1;
+}
+#home-button:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=App.css.map */

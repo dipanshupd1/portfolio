@@ -1,0 +1,384 @@
+@media(max-width:1200px){
+    #contact-submit-btn{
+    position: absolute;
+    bottom: -5rem;
+    right: 2rem;
+    }
+}
+
+@media(max-width:1145px){
+    #homediv-content h1 {
+        font-size: 2rem;
+        margin: 1rem 0rem 1rem 0rem;
+        text-align: center;
+        
+    }
+    #homediv-contentdiv{
+        /* widt */
+        /* border: 2px solid red; */
+       
+    }
+
+    #homediv-imgtag{
+        border: 2px solid red;
+    }
+}
+
+@media(max-width:1000px){
+    #skill-content-innerbox ul li{
+        font-size: 2.2rem;
+        padding: 1.3rem;
+    }
+    #skill-content-innerbox ul {
+       
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
+@media(max-width:840px){
+    #home-button{
+        position: absolute;
+        bottom: -10%;
+        right: 10%;
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+    #homediv-content{
+    
+        position: absolute;
+        top: 15%;
+        left: 20%;}
+    #about-main-left div{
+        font-size: 3rem;
+        margin-top: 12rem;
+    }
+    @keyframes buttonfall {
+        0% {
+          top: 0;
+          rotate: 180deg;
+        }
+        100% {
+          top: 9.5rem;
+        }
+      }
+      .para{
+        font-size: 1rem;
+      }
+    #skill-content-innerbox ul li{
+        font-size: 2rem;
+        padding: 1.2rem;
+    }
+    #skill-content-innerbox ul {
+       
+        grid-template-columns: 1fr 1fr;
+      }
+      #skill-content-innerbox-back ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      #skill-content-innerbox-back ul li{
+        font-size: 2rem;
+        padding: 1.2rem;
+
+      }
+      #flipbtn{
+        margin: 4rem 2rem 1rem 3rem;
+        font-size: 1rem;
+      }
+      #readmore{
+        position: absolute;
+        top: 4rem;
+        right: -5rem;
+        font-size: 1rem;
+      }
+
+      #contact-div{
+        clip-path: polygon(0 0,30% 5%, 100% 0, 100% 100%,0 100%);
+      }
+      #contact-left{
+        padding: 3rem 0 0 2rem;
+      }
+      #connect-icons{
+        font-size: 2.5rem;
+      }
+      .contact-input{
+        width: 15rem;
+      }
+      .contact-input-msg{
+        width: 15rem;
+      }
+      #contact-right p{
+        font-size: 2.2rem;
+      }
+}
+
+@media(max-width:580px){
+    #homediv-content{
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+    #homediv-contentdiv{
+        width: 75vw;
+    }
+    #homediv-content p{
+        font-size: 1.3rem;
+    }
+    .navlist{
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-right: 2rem;
+    }
+
+    #about-main-left div{
+        font-size: 2.5rem;
+        margin-top: 10rem;
+    }
+    @keyframes buttonfall {
+        0% {
+          top: 0;
+          rotate: 180deg;
+        }
+        100% {
+          top: 7.5rem;
+        }
+      }
+      .para{
+        font-size: 0.9rem;
+      }
+      /* #skill-box-wrap{
+        overflow-y: scroll;
+      } */
+      #skill-content{
+        padding-left: 4rem;
+      }
+      #skill-content-innerbox ul li{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    #skill-content-innerbox ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      #skill-content-innerbox-back ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      #skill-content-innerbox-back ul li{
+        font-size: 2rem;
+        padding: 1rem;
+      }
+      #flipbtn{
+        margin: 3rem 2rem 1rem 1rem;
+        font-size: 1rem;
+      }
+      #readmore{
+        position: absolute;
+        top: 3rem;
+        right: -6rem;
+        font-size: 1rem;
+      }
+
+      #projects{
+        font-size: 3rem;
+      }
+      #card-title{
+        font-size: 2.5rem;
+      }
+      #skill{
+        clip-path: polygon(0 0,30% 4%, 100% 0,100% 100%,70% 96%,0 100%);
+      }
+      #skill-text{
+        font-size: 3em;
+      }
+      #contact-div{
+        height: 180vh;
+      }
+      #contact{
+        font-size: 3rem;
+      }
+      #contact-inner-box{
+        display: block;
+        width: 100vw;
+        height: auto;
+      }
+      #contact-left{
+        width: 100vw;
+        padding-top: 1rem;
+      }
+      #contact-right{
+        width: 100vw;
+      }
+      #contact-left form{
+        margin-bottom: 2rem;
+      }
+      #contact-left form p {
+        display: none;
+      }
+      .contact-input{
+        width: 50vw;
+      }
+      .contact-input::placeholder{
+        opacity: 0.8;
+        color: white;
+      }
+      #contact-submit-btn{
+        position: absolute;
+        bottom:2rem;
+        right:4rem;
+      }
+      .contact-input-msg{
+        width: 60%;
+      }
+      .contact-input-msg::placeholder{
+        opacity: 0.8;
+        color: white;
+      }
+      #connect-icons a{
+        margin: 0 2rem 0 2rem;
+      }
+}
+@media(max-width:450px){
+    #skill-content{
+        padding-left: 2rem;
+        /* border: 2px solid red; */
+      }
+      #skill-content-innerbox ul li{
+        font-size: 1.5rem;
+        padding: 0.9rem;
+    }
+    #skill-content-innerbox ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+  
+      }
+      #skill-content-innerbox-back ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      #skill-content-innerbox-back ul li{
+        font-size: 1.5rem;
+        padding: 0.9rem;
+        margin: 1rem;
+      }
+      #connect-icons a{
+        margin: 0 1rem 0 1rem;
+      }
+      #contact-submit-btn{
+        position: absolute;
+        bottom:2rem;
+        right:4rem;
+        font-size: 1rem;
+        padding: 0.5rem;
+      }
+      .navlist{
+        padding: 0;
+        margin-right: 1rem;
+      }
+      #about-main-left div{
+        font-size: 1.5rem;
+        width: 40vw;
+        margin-top: 6rem;
+      }
+      #about-button {
+        position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+      }
+      @keyframes buttonfall {
+        0% {
+          top: 0;
+          rotate: 180deg;
+        }
+        100% {
+          top: 4.2rem;
+        }
+      }
+      #about-main-right {
+        width: 60vw;
+        /* border: 2px solid red; */
+        padding: 0;
+
+    }
+        #about-right-inner {
+            width: 100%;
+            margin: 0;
+            height: 100%;
+            
+        }
+        #homediv-imgtag{
+            position: absolute;
+            top: 0rem;
+            right: 25vw;
+            border: 2px solid red;
+            margin-top: 1rem;
+        }
+        #homediv-contentdiv{
+            top: 2rem;
+            width: 100vw;
+            height: 80vh;
+        }
+        #homediv-contentdiv h1{
+            font-size: 1.8rem;
+        }
+        #homediv-contentdiv p{
+            font-size: 1.1rem;
+        }
+        #homediv-contentdiv h3{
+            font-size: 1rem;
+        }
+        #home-button{
+            font-size: 0.7rem;
+            padding: 0.6rem;
+        }
+}
+@media(max-width:450px){
+    #skill-content{
+        padding-left: 3.5rem;
+      }
+      #projects{
+        font-size: 2rem;
+      }
+      #card-title{
+        font-size: 2rem;
+      }
+      #contact{
+        font-size: 2rem;
+      }
+      .contact-input{
+        font-size: 1rem;
+        width: 60%;
+      }
+      #contact-submit-btn{
+        position: absolute;
+        bottom: 2rem;
+        right: 0.5rem;
+      }
+      #connect-icons a{
+        margin: 0.5rem;
+      }
+      #about-main-left div{
+        font-size: 1.3rem;
+      }
+}
+@media(max-width:380px){
+  #skill-content{
+    padding-left: 2.5rem;
+  }
+}
+@media(max-width:350px){
+  #skill-content{
+    padding-left: 1.5rem;
+  }
+}
+@media(max-width:320px){
+  #skill-content{
+    padding-left: 0.5rem;
+  }
+}
+@media(max-width:300px){
+  #skill-content{
+    padding-left: 0rem;
+  }
+}
