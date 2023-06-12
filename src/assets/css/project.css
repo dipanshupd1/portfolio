@@ -62,6 +62,7 @@
   background-color: rgb(1, 119, 85);
   font-weight: 800;
   padding: 0 3px;
+  line-height: 25px;
   color: rgb(248, 246, 247) !important;
 }
 
@@ -95,7 +96,6 @@
   padding-top: 4rem;
   width: 100vw;
   background-color: black;
-  /* border: 2px solid red; */
 }
 
 #contact {
@@ -106,13 +106,11 @@
   font-family: "Secular One", sans-serif;
   color: rgb(26, 136, 4);
   text-shadow: 1px 1px 1px white;
- 
 }
 
 #contact-inner-box {
   width: 100%;
-  /* height: 70%; */
-  /* height: fit-content; */
+  height: 70%;
   display: flex;
 }
 
@@ -170,10 +168,10 @@
 #contact-submit-btn {
   background: none;
   border: none;
-  font-size: 1rem;
-  /* position: absolute;
-  bottom: 10rem;
-  right: 4rem; */
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 4rem;
   border: 1.5px solid rgb(8, 251, 8);
   padding: 0.8rem;
   cursor: pointer;
@@ -188,7 +186,6 @@
   width: 50%;
 }
 #contact-right p {
-  margin-top: 3rem;
   text-align: center;
   font-size: 2.5rem;
   font-family: "Rajdhani", "Times New Roman", Times, serif;
@@ -196,7 +193,7 @@
 }
 
 #connect-icons {
-  /* margin-bottom: 2rem; */
+  margin-bottom: 2rem;
   font-size: 3rem;
   padding: 1rem;
   text-align: center;

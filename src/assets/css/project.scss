@@ -80,7 +80,7 @@
         font-weight: 800;
         // border: 3px solid rgb(226, 13, 13);
         padding: 0 3px;
-        // line-height: 0;
+        line-height: 25px;
         color: rgb(248, 246, 247) !important;
         // font-style:oblique;
     }
@@ -109,9 +109,6 @@
     &:hover{
         background-color: rgb(255, 108, 181);
     }
-}
-#footer{
-    color:wheat
 }
 
 
