@@ -400,7 +400,7 @@
 
 #skill-text {
   display: block;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   /* border: 2px solid red; */
   font-size: 2.3rem;
 }
