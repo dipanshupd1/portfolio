@@ -197,7 +197,24 @@
           top: 7.5rem;
         }
       }
+      #about-right-inner {
+      
+        -webkit-clip-path: circle(200% at 80% 0);
+        clip-path: circle(200% at 80% 0);
+        box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.493);
+        transition: 100ms;
+        padding: 1rem 1rem 1rem 1rem;
+
+      }
+      #about-right-inner:hover {
+        box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.493);
+      }
+
+
+       
+       
       .para{
+        margin: 0;
         font-size: 0.9rem;
       }
       /* #skill-box-wrap{
