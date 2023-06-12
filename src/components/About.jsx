@@ -9,7 +9,7 @@ function About() {
     animatioTimingFunction: "linear",
     display:"block"}
    
-    const msg2="< Click />"
+    const msg2="Click"
     const movetoskill=()=>{
         window.location.replace("/#skill")
     }

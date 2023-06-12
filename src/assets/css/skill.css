@@ -6,20 +6,15 @@
 
 #skill {
   width: 100vw;
-  height: 140vh;
+  padding: 3rem;
+  height: auto;
   background-color: rgb(0, 0, 0);
-  -webkit-clip-path: polygon(0 0, 30% 10%, 100% 0, 100% 100%, 70% 90%, 0 100%);
-          clip-path: polygon(0 0, 30% 10%, 100% 0, 100% 100%, 70% 90%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 40% 5%, 100% 0, 100% 100%, 70% 95%, 0 100%);
+          clip-path: polygon(0 0, 40% 5%, 100% 0, 100% 100%, 70% 95%, 0 100%);
 }
 
-#skill-content {
+#skill-text {
   margin-top: 3rem;
-  padding: 8rem;
-  width: 100%;
-  height: 100%;
-  color: white;
-}
- #skill-text {
   font-size: 4rem;
   font-family: "Secular One", sans-serif;
   color: rgb(8, 185, 229);
@@ -30,9 +25,7 @@
 #skill-box-wrap {
   margin-top: 2rem;
   padding: 0;
-  position: relative;
   width: 100%;
-  height: 50%;
   transition: 1.5s;
   transform-style: preserve-3d;
 }
@@ -43,9 +36,7 @@
 
 #skill-content-innerbox {
   backface-visibility: hidden;
-  position: absolute;
   width: 100%;
-  height: auto;
 }
 #skill-content-innerbox ul {
   display: grid;
@@ -68,7 +59,6 @@
 }
 #skill-content-innerbox ul li:nth-child(odd) {
   border-radius: 1rem;
-  text-shadow: 2px 2px 1px rgb(14, 14, 14);
   background-color: rgb(7, 218, 250);
 }
 
@@ -78,6 +68,7 @@
   width: 100%;
   height: auto;
   position: absolute;
+  top: 0;
 }
 #skill-content-innerbox-back ul {
   display: grid;
@@ -100,7 +91,6 @@
 }
 #skill-content-innerbox-back ul li:nth-child(odd) {
   border-radius: 1rem;
-  text-shadow: 2px 2px 1px rgb(14, 14, 14);
   background-color: rgb(255, 0, 93);
 }
 

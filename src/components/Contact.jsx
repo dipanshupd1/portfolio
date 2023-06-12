@@ -35,6 +35,7 @@ const handleSubmit=(e)=>{
 
 
   return (
+    <>
     <div id='contact-div'>
     <h1 id='contact'>CONTACT ME</h1>
     <div id="contact-inner-box">
@@ -52,16 +53,18 @@ const handleSubmit=(e)=>{
         <div id="contact-right">
         <p> Connect With Me</p>
         <div id="connect-icons">
-        <a href="https://www.linkedin.com/in/dipanshu-prasad-641a18231/" ><AiFillLinkedin id='linkedin'/></a>
-        <a href="https://github.com/dipanshupd1"><AiFillGithub id='github'/></a>
-        <a href="https://www.instagram.com/dipanshupd/" ><BsInstagram id='insta'/></a>
-        <a href="https://twitter.com/Dipanshupd" ><AiFillTwitterSquare id='twitter'/></a> 
+        <a href="https://www.linkedin.com/in/dipanshu-prasad-641a18231/" target="_blank" ><AiFillLinkedin id='linkedin'/></a>
+        <a href="https://github.com/dipanshupd1"><AiFillGithub id='github' target="_blank"/></a>
+        <a href="https://www.instagram.com/dipanshupd/" ><BsInstagram id='insta' target="_blank"/></a>
+        <a href="https://twitter.com/Dipanshupd" ><AiFillTwitterSquare id='twitter' target="_blank"/></a> 
         </div>
         </div>
     </div>
 
       
     </div>
+    
+    </>
   )
 }
 

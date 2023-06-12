@@ -63,10 +63,11 @@ nav{
 #homediv{
     width: 100vw;
     height: 80vh;
+    // height: auto;
     // border: 2px solid rgb(44, 233, 10);
     position: relative;
     background-color: black;
-    clip-path: polygon(0 0,0 100%,70% 90%,100% 100%,100% 0);
+    clip-path: polygon(0 0,0 100%,70% 95%,100% 100%,100% 0);
     
 }
 #homediv-imgtag{
@@ -98,14 +99,16 @@ nav{
 
 #homediv-contentdiv{
     width: 70vw;
-    height: 80vh;
+    height: 80%;
+    // height: auto;
+    // height: fit-content;
     // border: 2px solid red;
     position: relative;
   }
  
   
  #homediv-content{
-    
+       
       position: absolute;
       top: 20%;
       left: 20%;
@@ -122,13 +125,13 @@ nav{
       }
      
     & h1{
-        color: rgb(24, 188, 252);
+        color: rgb(24, 225, 252);
         margin: 1rem 1rem 1rem 1rem;
         font-family: 'Josefin Sans', sans-serif;
     //   letter-spacing: 1px;
       text-align: center; 
       font-size: 2.5rem; 
-      text-shadow: 1px 1px 0px rgba(246, 246, 249, 0.569);
+    //   text-shadow: 1px 1px 0px rgba(246, 246, 249, 0.569);
     }
     & p{
         
@@ -138,8 +141,8 @@ nav{
         // margin: 1rem;
         font-family: 'Rajdhani', sans-serif;
         & span{
-            padding: 0 3px 0 3px;
-            background-color: rgb(46, 11, 241);
+            padding: 0 5px 0 5px;
+            background-color: rgb(98, 71, 251);
             color: rgb(237, 238, 245);
             // background-color: skyblue;
             // color: blue;
@@ -158,8 +161,8 @@ nav{
         bottom: -15%;
         right: 10%;
         text-align: center;
-        // border: 1px solid rgb(9, 238, 9);
-        box-shadow: 2px 2px 10px 1px  rgb(9, 238, 9);
+        border: 1px solid rgb(9, 238, 9);
+        // box-shadow: 2px 2px 10px 1px  rgb(9, 238, 9);
         border-radius: 0.4rem;
         color: rgb(9, 238, 9);
         opacity: 1;

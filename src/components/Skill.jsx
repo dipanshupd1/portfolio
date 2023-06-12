@@ -12,20 +12,19 @@ function Skill() {
  container.classList.toggle("skill-box-wrap-transform")
 
  }
- const readmore=()=>{
-      window.location.replace('/#projects')
- }
+//  const readmore=()=>{
+//       window.location.replace('/#projects')
+//  }
 //  setflipStyle({})
  
 
   return (
     <div id='skill'>
-      <div id="skill-content">
+      {/* <div id="skill-content"> */}
      
-      <div id='skill-text'>SKILLS</div>
-      
+      <h1 id='skill-text'>SKILLS</h1>
       <div id="skill-box-wrap">
-      {/* <button id='readmore' onClick={readmore}>read more</button> */}
+  
       <div id="skill-content-innerbox">
         <ul>
           <li>HTML</li>
@@ -48,12 +47,12 @@ function Skill() {
       </div> 
       <div id="allbuttons">
         <button id='flipbtn' onClick={flipbox}>{msg2}</button>
-        <button id='readmore' onClick={readmore}>{msg3}</button>
+        {/* <button id='readmore' onClick={readmore}>{msg3}</button> */}
       </div>
       </div> 
       
      
-     </div>
+    //  </div>
   )
 }
 
