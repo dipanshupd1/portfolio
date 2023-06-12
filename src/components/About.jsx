@@ -33,9 +33,9 @@ function About() {
     
     <div id="about-right-inner" onMouseOver={animationstart}>
     <p className="para">I'm <span>Dipanshu Prasad</span> , a passionate <span>web developer and programmer</span>  with a love for creating innovative and user-friendly digital experiences</p>
-     <p className="para">I've had the privilege of working on a wide range of projects and honing my skills in various technologies.I thrive on the challenges that come with crafting elegant solutions to complex problems, and I'm constantly seeking opportunities to expand my knowledge and stay up-to-date with the latest industry trends.</p>
-     <p className="para">Collaboration and effective communication are crucial aspects of my work philosophy. I thrive in team environments where ideas are shared, and I believe that the best results are achieved through open dialogue and collective brainstorming. </p>  
-    <p className="para">Beyond my technical expertise, I am committed to <span>delivering projects on time and within budget</span> , ensuring client satisfaction and fostering long-term partnerships</p>
+     <p className="para">I thrive on the challenges that come with crafting elegant solutions to complex problems, and I'm constantly seeking opportunities to expand my knowledge and stay up-to-date with the latest industry trends.</p>
+     <p className="para">Collaboration and effective communication are crucial aspects of my work philosophy.  
+    Beyond my technical expertise, I am committed to <span>delivering projects on time and within budget</span> , ensuring client satisfaction and fostering long-term partnerships</p>
     <p className="para">If you have any questions or would like to discuss a potential collaboration, please feel free to reach out to me. <span>Let's build something great together!</span> </p>
     
     </div>
