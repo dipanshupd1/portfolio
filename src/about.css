@@ -77,8 +77,8 @@
   margin-left: 10%;
   margin-top: 15%;
   position: absolute;
-  -webkit-clip-path: circle(15% at 20% 0%);
-          clip-path: circle(15% at 20% 0%);
+  -webkit-clip-path: circle(15% at 25% 0%);
+          clip-path: circle(15% at 25% 0%);
   transition: 1s;
   cursor: pointer;
   border-top: 4px solid rgb(14, 30, 251);
